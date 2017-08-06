@@ -1,0 +1,13 @@
+{
+    "name" : "localhost",
+    "phone" : "555-555",
+    "pages" : [{
+        "title" : "index",
+        "mainHeading" : "Welcome to localhost!",
+        "sections" : [{
+            "moduleType" : "JumbotronBanner",
+            "mainHeading" : "Jimmy is Testing",
+            "subHeading" : "this is not finalized and is just for testing reasons."
+        }]
+    }]
+}

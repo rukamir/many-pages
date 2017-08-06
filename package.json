@@ -1,0 +1,27 @@
+{
+  "name": "manypages",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.2",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "CI=true react-scripts test --env=jsdom && codeceptjs run --steps",
+    "test-e2e": "codeceptjs run --steps",
+    "test-unit": "CI=true react-scripts test --env=jsdom",
+    "test-unit-watch": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "codeceptjs": "^1.0.0",
+    "enzyme": "^2.9.1",
+    "react-test-renderer": "^15.6.1",
+    "webdriverio": "^4.8.0"
+  }
+}
