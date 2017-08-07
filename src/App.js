@@ -32,7 +32,6 @@ class App extends Component {
         </p>
         <JumbotronBanner mainHeading={`Welcome to ${window.location.hostname}!`} subheading={"Subheading"}/>
         <RibbonText1 heading={"Hello"} body={["hello"]} />
-        {console.log(this.state.sections[1])}
       </div>
     );
   }
