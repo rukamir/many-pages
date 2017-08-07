@@ -1,19 +1,20 @@
 {
     "name" : "localhost",
     "phone" : "555-555",
-    "pages" : [{
-        "title" : "index",
-        "mainHeading" : "Welcome to localhost!",
-        "sections" : [{
-            "moduleType" : "JumbotronBanner",
-            "mainHeading" : "Jimmy is Testing",
-            "subHeading" : "this is not finalized and is just for testing reasons."
-        },{
-            "moduleType" : "RibbonText1",
-            "heading" : "This is a RibbonText 1 style block.",
-            "body" : [  "This is the first paragraph of text",
-                            "Second paragraph"],
-            "graphic" : ""
-        }]
-    }]
+    "pages" :  {"index" : {
+            "title" : "Home Page",
+            "mainHeading" : "Welcome to localhost!",
+            "sections" : [{
+                "moduleType" : "JumbotronBanner",
+                "mainHeading" : "Jimmy is Testing",
+                "subHeading" : "this is not finalized and is just for testing reasons."
+            },{
+                "moduleType" : "RibbonText1",
+                "heading" : "This is a RibbonText 1 style block.",
+                "body" : [  "This is the first paragraph of text",
+                                "Second paragraph"],
+                "graphic" : ""
+            }]
+        }
+    }
 }

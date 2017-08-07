@@ -11,7 +11,8 @@ class App extends Component {
     this.state = {
       "name" : site.name,
       "phone" : site.phone,
-      "pages" : site.pages
+      "page" : site.pages['index'],
+      "sections" : site.pages['index'].sections
     }
   }
 
@@ -31,7 +32,7 @@ class App extends Component {
         </p>
         <JumbotronBanner mainHeading={`Welcome to ${window.location.hostname}!`} subheading={"Subheading"}/>
         <RibbonText1 heading={"Hello"} body={["hello"]} />
-        {console.log(this.state.pages[0].sections[1])}
+        {console.log(this.state.sections[1])}
       </div>
     );
   }
