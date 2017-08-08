@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import JumbotronBanner from './Components/JumbotronBanner';
 import RibbonText1 from './Components/RibbonText1';
+import SitePage from './SitePage';
 import site from './Site-data/localhost';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   constructor() {
@@ -30,8 +32,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <JumbotronBanner mainHeading={`Welcome to ${window.location.hostname}!`} subheading={"Subheading"}/>
-        <RibbonText1 heading={"Hello"} body={["hello"]} />
+        <SitePage sections={this.state.sections} />
       </div>
     );
   }

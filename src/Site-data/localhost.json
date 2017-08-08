@@ -7,7 +7,7 @@
             "sections" : [{
                 "moduleType" : "JumbotronBanner",
                 "mainHeading" : "Jimmy is Testing",
-                "subHeading" : "this is not finalized and is just for testing reasons."
+                "subheading" : "this is not finalized and is just for testing reasons."
             },{
                 "moduleType" : "RibbonText1",
                 "heading" : "This is a RibbonText 1 style block.",

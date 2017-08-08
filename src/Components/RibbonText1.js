@@ -6,7 +6,7 @@ class RibbonText1 extends Component {
     get body() {
         return (this.props.body.map((textBlock, i) => {
             return (
-                <p key={i}>test</p>
+                <p key={i}>{textBlock}</p>
             )
         }))
     }
