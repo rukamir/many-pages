@@ -7,7 +7,8 @@ class JumbotronBanner extends Component {
     }
 
     get subheading() {
-        return (this.props.subheading)
+        //return (<div dangerouslySetInnerHTML={this.props.subheading}></div>)
+        return ({__html: this.props.subheading})
     }
 
     render() {
@@ -16,7 +17,7 @@ class JumbotronBanner extends Component {
                 <div className="row">
                     <div className="col-xs-12">
                         <h1>{this.props.mainHeading}</h1>
-                        <h3>{this.props.subheading}</h3>
+                        <h3 dangerouslySetInnerHTML={this.subheading}></h3>
                     </div>
                 </div>
 

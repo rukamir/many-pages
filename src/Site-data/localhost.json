@@ -1,19 +1,30 @@
 {
     "name" : "localhost",
     "phone" : "555-555",
+    "pageList" : [  "index",
+                    "about"],
     "pages" :  {"index" : {
             "title" : "Home Page",
             "mainHeading" : "Welcome to localhost!",
             "sections" : [{
                 "moduleType" : "JumbotronBanner",
                 "mainHeading" : "Jimmy is Testing",
-                "subheading" : "this is not finalized and is just for testing reasons."
+                "subheading" : "this is not <strong>finalized</strong> and is just for testing reasons."
             },{
                 "moduleType" : "RibbonText1",
                 "heading" : "This is a RibbonText 1 style block.",
                 "body" : [  "This is the first paragraph of text",
                                 "Second paragraph"],
                 "graphic" : ""
+            }]
+        },
+        "about" : {
+            "title" : "About Me",
+            "mainHeading" : "",
+            "sections" : [{
+                "moduleType" : "JumbotronBanner",
+                "mainHeading" : "About me",
+                "subheading" : "React router is working!!"
             }]
         }
     }
