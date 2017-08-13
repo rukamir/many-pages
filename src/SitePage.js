@@ -7,8 +7,8 @@ class SitePage extends Component {
     get allComponents() {
         return (this.props.sections.map( (elem, i) => {
             let componentBluePrint = {
-                "RibbonText1" : <RibbonText1 heading={elem.heading} body={elem.body}/>,
-                "JumbotronBanner" : <JumbotronBanner mainHeading={elem.mainHeading} subheading={elem.subheading} />
+                "RibbonText1" : <RibbonText1 key={i} heading={elem.heading} body={elem.body}/>,
+                "JumbotronBanner" : <JumbotronBanner key={i} mainHeading={elem.mainHeading} subheading={elem.subheading} />
             }
             return componentBluePrint[elem.moduleType]
         }))
