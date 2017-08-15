@@ -1,6 +1,7 @@
 {
     "name" : "localhost",
     "phone" : "555-555",
+    "navbar" : true,
     "pageList" : [  "index",
                     "about"],
     "pages" :  {"index" : {

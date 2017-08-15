@@ -4,6 +4,7 @@ import './App.css';
 import SitePage from './SitePage';
 import site from './Site-data/localhost';
 import 'bootstrap/dist/css/bootstrap.css';
+import NavPages from './Components/NavPages';
 import {
   BrowserRouter as Router,
   Route,
@@ -34,6 +35,8 @@ class App extends Component {
     return (
       <Router>
       <div>
+        <NavPages pages={this.state.pageList} />
+
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
